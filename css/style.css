@@ -135,11 +135,17 @@ ul li {
             padding-right: 0px;
         }
         .info {
-            margin: auto;
+            margin-right: 15px;
 
         }
         .logo-container {
             margin-left: 5px;
+        }
+        .jop {
+
+        }
+        .name {
+            
         }
 }
 @media screen and (min-width: 501px) and (max-width: 800px) { 
