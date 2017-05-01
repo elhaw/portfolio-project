@@ -125,33 +125,25 @@ ul li {
  	width: 100px;
  	height: 100px;
 }
- @media screen and (max-width: 500px)
-    {  
-         /*In bootstrab styling ".col-md-6" set paddding
-            left and right value t0 15 when screen sizes in small
-            so I changed it here to overcome page overflow */
-		.col-md-6 {
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-        .info {
-            margin-right: 15px;
-
-        }
-        .logo-container {
-            margin-left: 5px;
-        }
-        .jop {
-
-        }
-        .name {
-            
-        }
+ @media screen and (max-width: 500px) {  
+    /*In bootstrab styling ".col-md-6" set paddding
+    left and right value t0 15 when screen sizes in small
+    so I changed it here to overcome page overflow */
+	.col-md-6 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .info {
+        margin-right: 15px;
+    }
+    .logo-container {
+        margin-left: 5px;
+    }
 }
 @media screen and (min-width: 501px) and (max-width: 800px) { 
 
 	.projects {
-    	display: flex;
+        display: flex;
     	flex-wrap: wrap;
 	}
 	.project {
@@ -163,9 +155,6 @@ ul li {
        	display: flex;
     }
 }
-	.outer {
-    	max-width: 100%;
-    	height: 500px;
-}
+
 
 
