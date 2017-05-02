@@ -168,6 +168,12 @@ ul li {
     .projects-title {
         font-size: 40px;
     }
+    .container {
+        width: 90%;
+    }
+    img {
+        width: 100%;
+    }
 }
 
 
